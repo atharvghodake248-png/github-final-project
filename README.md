@@ -1,56 +1,23 @@
 # Simple Interest Calculator
 
-A small Bash script that calculates simple interest from a principal amount, an annual rate and a time period.
+A calculator that calculates simple interest given the principal amount, annual rate of interest, and time period in years.
 
-## Details
+## Formula
 
-- **Project name:** Simple Interest Calculator
-- **Language:** Bash
-- **License:** Apache License 2.0 (see [LICENSE](LICENSE))
-- **Formula:** `Simple Interest = (Principal × Rate × Time) / 100`
+Simple Interest = (Principal × Rate × Time) / 100
+
+## Inputs
+
+* `p`: Principal amount
+* `r`: Annual rate of interest
+* `t`: Time period in years
 
 ## Usage
 
-```bash
-chmod +x simple-interest.sh
-./simple-interest.sh <principal> <rate> <time>
-```
-
-- `principal` – the amount of money borrowed or invested
-- `rate` – annual interest rate in percent
-- `time` – time period in years
-
-### Example
+Run the Bash script using:
 
 ```bash
-$ ./simple-interest.sh 10000 5 2
-Principal       : 10000
-Rate (% p.a.)   : 5
-Time (years)    : 2
-Simple Interest : 1000.00
-Total Amount    : 11000.00
+bash simple-interest.sh
 ```
 
-Running the script with no arguments prompts you to enter the values interactively.
-
-## Requirements
-
-- Bash 3.2 or newer
-- `awk` (standard on Linux and macOS)
-
-## Project Files
-
-| File | Purpose |
-|------|---------|
-| `simple-interest.sh` | The calculator |
-| `LICENSE` | Apache License 2.0 |
-| `CODE_OF_CONDUCT.md` | Community standards |
-| `CONTRIBUTING.md` | How to contribute |
-
-## Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## License
-
-Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE).
+The calculator accepts the principal, rate of interest, and time period and calculates the simple interest.
