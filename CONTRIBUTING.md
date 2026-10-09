@@ -1,12 +1,14 @@
 # Contributing to Simple Interest Calculator
 
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
+
 Contributions are welcome! We appreciate every kind of help, including:
 
-- **Bug reports** – found something broken? Open an issue describing the problem, the command you ran, the output you expected and what you actually got.
-- **Fixes** – pull requests that fix bugs are always appreciated.
-- **Documentation** – improvements to the README, usage examples, comments and typo corrections.
-- **Enhancements** – new features and improvements to existing behavior.
-- **Ideas** – suggestions and feature requests are welcome; open an issue to start a discussion.
+- **Bug reports** ??? found something broken? Open an issue describing the problem, the command you ran, the output you expected and what you actually got.
+- **Fixes** ??? pull requests that fix bugs are always appreciated.
+- **Documentation** ??? improvements to the README, usage examples, comments and typo corrections.
+- **Enhancements** ??? new features and improvements to existing behavior.
+- **Ideas** ??? suggestions and feature requests are welcome; open an issue to start a discussion.
 
 ## How to Contribute
 
