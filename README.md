@@ -4,7 +4,7 @@ A calculator that calculates simple interest given the principal amount, annual 
 
 ## Formula
 
-Simple Interest = (Principal × Rate × Time) / 100
+Simple Interest = (P × R × T) / 100
 
 ## Inputs
 
